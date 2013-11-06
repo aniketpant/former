@@ -1,0 +1,16 @@
+{
+  "name": "former",
+  "repo": "aniketpant/former",
+  "description": "Form builder",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/domify": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
