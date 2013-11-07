@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Former</title>
+</head>
+<body>
+  <div id="my-form"></div>
+</body>
+<script type="text/javascript" src='build/build.js'> </script>
+<script type="text/javascript">
+  var Former = require( 'former' );
+  former = new Former( document.querySelector( '#my-form' ), {
+    'encloseFormFields': '<ul class="form-fields">',
+    'encloseField': '<li class="field">',
+  } );
+
+  former.add( 'input', { 'class': 'text-input' }, { 'text': 'Email' } );
+  former.add( 'textarea', { 'class': 'text-input' } );
+</script>
+</html>
